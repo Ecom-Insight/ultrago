@@ -37,6 +37,7 @@ func NewRetryHttpClient(httpExecutor HttpExecutor, timeout time.Duration, retry 
 type HttpClient struct {
 	url          string
 	headers      map[string]string
+	cookies      []*http.Cookie
 	params       interface{}
 	retry        uint64
 	timeout      time.Duration
@@ -94,6 +95,14 @@ func (c *HttpClient) WithBearerAuth(token string, addPrefix bool) *HttpClient {
 	return c.WithHeaders(map[string]string{"Authorization": auth})
 }
 
+func (c *HttpClient) WithCookies(cookies ...*http.Cookie) *HttpClient {
+	if len(cookies) == 0 {
+		return c
+	}
+	c.cookies = cookies
+	return c
+}
+
 func (c *HttpClient) Do(ctx context.Context, method string) (*HttpResponse, error) {
 	ctx, logger := u_logger.GetLogger(ctx)
 
@@ -119,6 +128,10 @@ func (c *HttpClient) Do(ctx context.Context, method string) (*HttpResponse, erro
 	c.headers["Content-Type"] = "application/json"
 	for key, value := range c.headers {
 		r.Header.Set(key, value)
+	}
+
+	for _, cookie := range c.cookies {
+		r.AddCookie(cookie)
 	}
 
 	if u_env.IsDev() {
