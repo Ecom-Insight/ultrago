@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/tikivn/ultrago/u_logger"
+	"Ecom-Insight/ultrago/u_logger"
 )
 
 func NewCtx() context.Context {

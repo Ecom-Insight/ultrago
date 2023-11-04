@@ -6,7 +6,8 @@ import (
 	"time"
 
 	"github.com/go-chi/chi/v5/middleware"
-	"github.com/tikivn/ultrago/u_prometheus"
+
+	"Ecom-Insight/ultrago/u_prometheus"
 )
 
 func NewMetricMiddleware() *MetricMiddleware {

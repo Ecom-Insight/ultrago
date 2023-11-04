@@ -9,7 +9,8 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/v5/middleware"
-	"github.com/tikivn/ultrago/u_logger"
+
+	"Ecom-Insight/ultrago/u_logger"
 )
 
 func NewHttpLogMiddleware() *HttpLogMiddleware {

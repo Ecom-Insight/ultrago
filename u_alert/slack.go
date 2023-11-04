@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
+	"Ecom-Insight/ultrago/u_env"
+	"Ecom-Insight/ultrago/u_logger"
 	slack_webhook "github.com/slack-go/slack"
-	"github.com/tikivn/ultrago/u_env"
-	"github.com/tikivn/ultrago/u_logger"
 )
 
 type slack struct {

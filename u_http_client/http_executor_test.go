@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/tikivn/ultrago/u_prometheus"
+	"Ecom-Insight/ultrago/u_prometheus"
 )
 
 func Test_httpExecutor_cleanUpPath(t *testing.T) {

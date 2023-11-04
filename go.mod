@@ -1,4 +1,4 @@
-module github.com/tikivn/ultrago
+module Ecom-Insight/ultrago
 
 go 1.20
 

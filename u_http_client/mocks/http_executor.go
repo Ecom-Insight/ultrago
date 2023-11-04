@@ -4,10 +4,11 @@ import (
 	"net/http"
 	"time"
 
-	http_client "github.com/tikivn/ultrago/u_http_client"
-	"github.com/tikivn/ultrago/u_logger"
-	"github.com/tikivn/ultrago/u_prometheus"
 	"moul.io/http2curl"
+
+	http_client "Ecom-Insight/ultrago/u_http_client"
+	"Ecom-Insight/ultrago/u_logger"
+	"Ecom-Insight/ultrago/u_prometheus"
 )
 
 func NewHttpExecutor() http_client.HttpExecutor {

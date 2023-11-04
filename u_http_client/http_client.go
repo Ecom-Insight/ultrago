@@ -13,9 +13,10 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"github.com/tikivn/ultrago/u_env"
-	"github.com/tikivn/ultrago/u_logger"
 	"moul.io/http2curl"
+
+	"Ecom-Insight/ultrago/u_env"
+	"Ecom-Insight/ultrago/u_logger"
 )
 
 func NewHttpClient(httpExecutor HttpExecutor, timeout time.Duration) *HttpClient {

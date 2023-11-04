@@ -2,7 +2,8 @@ package u_prometheus
 
 import (
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/tikivn/ultrago/u_logger"
+
+	"Ecom-Insight/ultrago/u_logger"
 )
 
 const (
