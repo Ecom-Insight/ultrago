@@ -6,9 +6,9 @@ import (
 
 	"moul.io/http2curl"
 
-	http_client "Ecom-Insight/ultrago/u_http_client"
-	"Ecom-Insight/ultrago/u_logger"
-	"Ecom-Insight/ultrago/u_prometheus"
+	http_client "github.com/Ecom-Insight/ultrago/u_http_client"
+	"github.com/Ecom-Insight/ultrago/u_logger"
+	"github.com/Ecom-Insight/ultrago/u_prometheus"
 )
 
 func NewHttpExecutor() http_client.HttpExecutor {

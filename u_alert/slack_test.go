@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"Ecom-Insight/ultrago/u_env"
+	"github.com/Ecom-Insight/ultrago/u_env"
 	"github.com/stretchr/testify/assert"
 )
 

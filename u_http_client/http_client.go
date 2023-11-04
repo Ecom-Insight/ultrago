@@ -15,8 +15,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"moul.io/http2curl"
 
-	"Ecom-Insight/ultrago/u_env"
-	"Ecom-Insight/ultrago/u_logger"
+	"github.com/Ecom-Insight/ultrago/u_env"
+	"github.com/Ecom-Insight/ultrago/u_logger"
 )
 
 func NewHttpClient(httpExecutor HttpExecutor, timeout time.Duration) *HttpClient {

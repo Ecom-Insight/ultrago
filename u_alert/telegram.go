@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"Ecom-Insight/ultrago/u_logger"
+	"github.com/Ecom-Insight/ultrago/u_logger"
 	"github.com/go-telegram-bot-api/telegram-bot-api"
 )
 

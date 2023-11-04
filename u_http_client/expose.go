@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"Ecom-Insight/ultrago/u_prometheus"
+	"github.com/Ecom-Insight/ultrago/u_prometheus"
 )
 
 type HttpExecutor interface {

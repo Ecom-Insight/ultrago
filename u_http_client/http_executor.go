@@ -8,8 +8,8 @@ import (
 
 	"github.com/cenkalti/backoff/v4"
 
-	"Ecom-Insight/ultrago/u_logger"
-	"Ecom-Insight/ultrago/u_prometheus"
+	"github.com/Ecom-Insight/ultrago/u_logger"
+	"github.com/Ecom-Insight/ultrago/u_prometheus"
 )
 
 func NewHttpExecutor() HttpExecutor {

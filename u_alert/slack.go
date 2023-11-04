@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"Ecom-Insight/ultrago/u_env"
-	"Ecom-Insight/ultrago/u_logger"
+	"github.com/Ecom-Insight/ultrago/u_env"
+	"github.com/Ecom-Insight/ultrago/u_logger"
 	slack_webhook "github.com/slack-go/slack"
 )
 

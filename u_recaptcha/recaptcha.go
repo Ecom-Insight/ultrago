@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"time"
 
-	"Ecom-Insight/ultrago/u_env"
-	"Ecom-Insight/ultrago/u_http_client"
-	"Ecom-Insight/ultrago/u_logger"
+	"github.com/Ecom-Insight/ultrago/u_env"
+	"github.com/Ecom-Insight/ultrago/u_http_client"
+	"github.com/Ecom-Insight/ultrago/u_logger"
 )
 
 const (

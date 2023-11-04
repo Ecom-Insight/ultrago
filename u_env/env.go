@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"Ecom-Insight/ultrago/u_logger"
+	"github.com/Ecom-Insight/ultrago/u_logger"
 )
 
 func init() {

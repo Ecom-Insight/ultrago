@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"time"
 
-	"Ecom-Insight/ultrago/u_logger"
+	"github.com/Ecom-Insight/ultrago/u_logger"
 )
 
 // TimeTrack call defer TimeTrack(time.Now) at beginning of function that you want to track monitor
